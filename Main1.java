@@ -1,8 +1,8 @@
 import java.sql.*;
 public class Main1 {
     private static final String DB_URL="jdbc:mysql://localhost:3306/mec";
-    private static final String USER="root";
-    private static final String PASS="root";
+    private static final String USER="user_name";
+    private static final String PASS="****";
     public static void main(String[] args) {
         String insertSql="INSERT INTO employees(name,salary)VALUES(?,?)";
         String selectSql="SELECT id,name,salary FROM employees";
@@ -38,3 +38,4 @@ public class Main1 {
         }
     }
 }
+
